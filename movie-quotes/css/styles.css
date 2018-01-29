@@ -1,0 +1,27 @@
+body{
+	background-color: #909497;
+	font-size: 25px;
+}
+
+p.one{
+	color: #ADD8E6;
+}
+
+p.two{
+	color: #87CEEB;
+}
+p.three{
+	color: #87CEFA;
+}
+p.four{
+	color: #00BFFF;
+}
+p.five{
+	color: #1E90FF;
+}
+p.six{
+	color: #6495ED;
+}
+p.seven{
+	color: #000000;
+}

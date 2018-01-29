@@ -1,0 +1,15 @@
+body{
+	text-align: center;
+	background-color: pink;
+}
+
+#titleChunk{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+
+.coverArt{
+	width: 600px;
+	height: 300px;
+}
