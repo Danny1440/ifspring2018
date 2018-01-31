@@ -1,0 +1,125 @@
+body{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 24px;
+	margin: 50px;
+	background-color: lavender;
+}
+
+
+.general{
+	font-size: 30px;
+	line-height: 2;
+	margin-top: 30px;
+}
+
+.specific{
+	font-size: 16px;
+	line-height: 1;
+}
+
+#FWNormal{
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 1;
+	margin-bottom: 15px;
+}
+
+#FWBold{
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 1;
+	margin-bottom: 15px;
+}
+
+#FSNormal{
+	font-style: normal;
+	font-size: 24px;
+	line-height: 1;
+	margin-bottom: 15px;
+}
+
+#FSItalic{
+	font-style: italic;
+	font-size: 24px;
+	line-height: 1;
+	margin-bottom: 15px;
+}
+
+
+#LSSpace1{
+	font-size: 24px;
+	line-height: 1;
+	margin-bottom: 15px;
+	letter-spacing: normal;
+}
+
+#LSSpace2{
+	font-size: 24px;
+	line-height: 1;
+	margin-bottom: 15px;
+	letter-spacing: .3em;
+}
+
+#LSSpace3{
+	font-size: 24px;
+	line-height: 1;
+	margin-bottom: 15px;
+	letter-spacing: -.06em;
+}
+
+#TTnone{;
+	font-size: 24px;
+	line-height: 1;
+	margin-bottom: 15px;
+	text-transform: none;
+}
+
+#TTuppercase{;
+	font-size: 24px;
+	line-height: 1;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+}
+
+#TTlowercase{;
+	font-size: 24px;
+	line-height: 1;
+	margin-bottom: 15px;
+	text-transform: lowercase;
+}
+
+#TTcapitalize{;
+	font-size: 24px;
+	line-height: 1;
+	margin-bottom: 15px;
+	text-transform: capitalize;
+}
+
+#TDnone{;
+	font-size: 24px;
+	line-height: 1;
+	margin-bottom: 15px;
+	text-decoration: none;
+}
+
+#TDunderline{;
+	font-size: 24px;
+	line-height: 1;
+	margin-bottom: 15px;
+	text-decoration: underline;
+}
+
+#TDlinethrough{;
+	font-size: 24px;
+	line-height: 1;
+	margin-bottom: 15px;
+	text-decoration: line-through;
+}
+
+#TDoverline{;
+	font-size: 24px;
+	line-height: 1;
+	margin-bottom: 15px;
+	text-decoration: overline;
+}
+
