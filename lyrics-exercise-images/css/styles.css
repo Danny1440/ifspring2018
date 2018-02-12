@@ -1,0 +1,56 @@
+body{
+	text-align: center;
+	background-color: pink;
+	font-family: 'Raleway', sans-serif;
+}
+
+#titleChunk{
+	display: block;
+	position: fixed;
+	width: 100%;
+	float: left;
+	text-align: center;
+	background-color: pink;
+	background-image: url(https://cdn.shopify.com/s/files/1/0251/2335/collections/cucoboxlogo_copy_f77531ed-e2ca-4aa1-aafe-50c76135f5d9_1024x1024.jpg?v=1488520184);
+	background-size: contain;
+	color: white;
+	height: 210px;
+}
+
+#leftPic{
+	display: block;
+	float: left;
+	position: sticky;
+	position: fixed;
+}
+
+#rightPic{
+	display: block;
+	float: right;
+	position: sticky;
+	position: fixed;
+	right: 5px;
+    bottom: 220px;
+	
+}
+
+#buffer{
+	background-color: pink;
+	height: 225px;
+}
+
+.coverArt{
+	width: 400px;
+	height: 200px;
+}
+
+h2{
+	font-family: 'Shrikhand', cursive;
+}
+
+h1{
+	font-family: 'Shrikhand', cursive;
+	font-size: 2.4em;
+}
+
+
