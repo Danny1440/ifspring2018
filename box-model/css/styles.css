@@ -78,6 +78,10 @@ body {
 	
 }
 
+#block2innerbox{
+	margin: auto;
+}
+
 #mainText2{
 	padding-top: 4px;
 
@@ -91,6 +95,7 @@ body {
 	height: 690px;
 	width: 100%;
 	background-color: CadetBlue;
+	
 	
 }
 
@@ -212,5 +217,39 @@ body {
 	height: 50px;
 }
 
+.imageAndtextR{
+	position: relative;
+	left: 485px;
+	bottom: 520px;
+}
 
 
+#block3 .imageL4{
+	background-image: url(https://cdn.patchcdn.com/users/41475/2012/11/T200x150/d026bb82d731b4bea7cce8251c8912cd.jpg);
+	width: 200px;
+	height: 150px;
+	margin-left: 365px;
+	margin-top: -100px;
+	padding-top: 0px;
+	display: inline-block;
+}
+
+#block3 .imageL5{
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkHjvZ-qPfpMQ4HLOXE8stuLkAJQd4EaW6O-hlY8rHib6d_rF8);
+	width: 200px;
+	height: 150px;
+	margin-left: 365px;
+	margin-top: -100px;
+	padding-top: 0px;
+	display: inline-block;
+}
+
+#block3 .imageL6{
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY53l1Eur8XLIOhuwhSaJgOfJigtSYmzTCBkheaFpWI20rJQ2J8g);
+	width: 200px;
+	height: 150px;
+	margin-left: 365px;
+	margin-top: -100px;
+	padding-top: 0px;
+	display: inline-block;
+}
