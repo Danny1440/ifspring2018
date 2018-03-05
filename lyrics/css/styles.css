@@ -1,0 +1,110 @@
+body{
+	background-color: pink;
+}
+
+
+#titleNameA{
+	background: url(../cucoName.png) center no-repeat;
+	height: 80px;
+	width: 160px;
+	display: inline-block;
+	margin-left: 50px;
+	margin-top: -100px;
+	opacity: .7;
+}
+
+#titleNameA:hover{
+	background: url(../cucoName.png) center no-repeat;
+	height: 80px;
+	width: 160px;
+	opacity: 1;
+}
+
+
+#title h1{
+	font-family: 'Knewave', cursive;
+	font-size: 60px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+#title h3{
+	font-family: 'Knewave', cursive;
+	font-size: 30px;
+	margin-top: 10px;
+	margin-top: 0px;
+}
+
+#title{
+	margin-left: 100px;
+}
+
+#mainbox{
+	margin-left: 50px; 
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+
+
+#leftText{
+	float: left;
+	font-family: 'Kalam', cursive;
+	font-size: 16px;
+}
+
+#rightText{
+	display: inline-block;
+	padding-left: 30px;
+	font-family: 'Kalam', cursive;
+	font-size: 16px;
+}
+
+#cucoImage{
+	height: 800px;
+	width: 800px;
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	background-image: url(../cucoImage75.png);
+	margin-bottom: 0px;
+}
+
+
+#spotify{
+	width: 75px;
+	height: 75px;
+	float: left;
+	display: block;
+	margin-top: 50px;
+	margin-left: -175px;
+	background-image: url(../spotify.png);
+	opacity: .7;
+}
+
+#spotify:hover{
+	width: 75px;
+	height: 75px;
+	float: left;
+	background-image: url(../spotify.png);
+	opacity: 1;
+}
+
+#apple{
+	width: 75px;
+	height: 75px;
+	float: left;
+	margin-top: 50px;
+	margin-left: -75px;
+	background-image: url(../apple.png);
+	opacity: .7;
+}
+
+#apple:hover{
+	width: 75px;
+	height: 75px;
+	float: left;
+	position: relative;
+	background-image: url(../apple.png);
+	opacity: 1;
+}
