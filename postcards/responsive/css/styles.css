@@ -1,0 +1,106 @@
+#pcard1, a, #pcard2, #pcard3{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+#pcard1{
+	background: url("../backgrounds/vader.png") no-repeat center;
+	background-size: cover;
+	z-index: 10;
+}
+
+#pcard2{
+	background: url("../backgrounds/yoda.jpg") no-repeat center;
+	background-size: cover;
+	z-index: 10;
+}
+
+#pcard3{
+	background: url("../backgrounds/leia.jpg") no-repeat center;
+	background-size: cover;
+	z-index: 10;
+}
+
+a{
+	z-index: 50;
+}
+
+#qText1, #qName1{
+	color: white;
+	text-align: center;
+}
+
+#qText1{
+	line-height: 1.4;
+}
+
+#qName1{
+	line-height: 1;
+}
+#qText2{
+	line-height: 1.4;
+	text-align: center;
+}
+
+#qName2{
+	line-height: 1;
+	text-align: center;
+}
+
+#quote1{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	z-index: 25;
+	width: 275px;
+	font-family: 'Michroma', sans-serif;
+	font-size: 36px;
+	
+}
+
+#quote2{
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	z-index: 25;
+	width: 350px;
+	font-family: 'Michroma', sans-serif;
+	font-size: 46px;
+}
+
+#quote3{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	z-index: 25;
+	width: 550px;
+	font-family: 'Michroma', sans-serif;
+	font-size: 46px;
+}
+
+@media screen and (max-width: 700px){
+	#quote1{
+		font-size: 24px;
+	}
+	#quote3{
+		width: 350px;
+		font-size: 30px;
+	}
+}
+
+@media screen and (max-width: 500px){
+	#quote1{
+		font-size: 20px;
+		width: 200px;
+	}
+	#quote2{
+		font-size: 24px;
+	}
+	#quote3{
+		width: 200px;
+		font-size: 24px;
+	}
+}
