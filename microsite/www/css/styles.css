@@ -1,0 +1,209 @@
+#mainVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+body{
+	margin-top: 0;
+}
+
+.menuBar{
+	position: fixed;
+	height: 100%;
+	width: 15%;
+	background: rgba(0, 0, 0, 0.5);
+	top: 0;
+	left: 0;
+	text-align: center;
+	line-height: 100px;
+	font-family: 'Teko', sans-serif;
+}
+
+.menuBar h3{
+	color: white;
+	font-size: 36px;
+	text-decoration: underline;
+	text-align: center;
+
+}
+
+.menuBar a{
+	color: white;
+	text-decoration: none;
+	font-size: 36px;
+}
+
+.menuBar a:hover{
+	color: rgba(0, 0, 0, 0.75);
+}
+
+#heading{
+	position: relative;
+	text-align: center;
+	z-index: 100;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+h6{
+	z-index: 100;
+	color: white;
+	text-shadow: 3px 3px black;
+	font-size: 24px;
+	margin-top: 0px;
+}
+
+#mainLogo{
+	position: relative;
+	margin: auto;
+	z-index: 1000;
+	width: 450px;
+	height: 70px;
+	background: url('../img/ActionParkLogo.png') center no-repeat;
+
+}
+
+/*
+Styles for History
+*/
+
+#historyHeading{
+	width: 86%;
+	height: 200px;
+	background: url('../img/ActionParkHeadline.jpg') center;
+	background-size: cover;
+	margin-left: 15%;
+}
+
+#hLink{
+	font-weight: bold;
+}
+
+.history{
+	text-decoration: underline;
+	font-size: 48px;
+	margin-left: 15%;
+	margin-top: 0;
+	text-align: center;
+	font-family: 'Teko', sans-serif;
+}
+
+#historyBlock1{
+	width: 86%;
+	margin-left: 15.5%;
+
+}
+
+#historyBlock1{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+#historyImage1{
+	width: 275px;
+	height: 200px;
+	display: inline-block;
+	background: url('../img/ActionParkSlide2.jpg') center no-repeat;
+	float: right;
+	margin-right: 10px;
+}
+
+#historyImage2{
+	width: 275px;
+	height: 200px;
+	display: inline-block;
+	background: url('../img/ActionParkSlide.jpg') center no-repeat;
+	float: left;
+	margin-right: 10px;
+}
+
+.historyHeaders{
+	text-decoration: underline;
+	font-size: 24px;
+}
+
+#historyImage3{
+	width: 275px;
+	height: 200px;
+	display: inline-block;
+	background: url('../img/closeSign.jpg') center no-repeat;
+	float: right;
+	margin-right: 10px;
+}
+
+/*
+Styles for Scandals
+*/
+
+#sLink{
+	font-weight: bold;
+}
+
+#scandalHeading{
+	width: 86%;
+	height: 125px;
+	background: url('../img/ActionParkHeadline2.png') center;
+	/*background-size: cover;*/
+	margin-left: 15%;
+}
+
+
+.scandal{
+	text-decoration: underline;
+	font-size: 48px;
+	margin-left: 15%;
+	margin-top: 0;
+	text-align: center;
+	font-family: 'Teko', sans-serif;
+}
+
+#scandalBlock1{
+	width: 86%;
+	margin-left: 15.5%;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+#smallA{
+	font-size: 16px;
+}
+
+
+/*
+Styles for Legacy
+*/
+
+#lLink{
+	font-weight: bold;
+}
+
+#legacyHeading{
+	width: 86%;
+	height: 170px;
+	background: url('../img/ActionParkHeadline3.png') center;
+	/*background-size: cover;*/
+	margin-left: 15%;
+}
+
+
+.legacy{
+	text-decoration: underline;
+	font-size: 48px;
+	margin-left: 15%;
+	margin-top: 0;
+	text-align: center;
+	font-family: 'Teko', sans-serif;
+}
+
+/*
+Styles for Sources
+*/
+
+
+.source{
+	text-decoration: underline;
+	font-size: 48px;
+	margin-left: 15%;
+	margin-top: 0;
+	text-align: center;
+	font-family: 'Teko', sans-serif;
+}
