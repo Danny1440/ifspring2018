@@ -1,0 +1,291 @@
+#mainVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+body{
+	margin-top: 0;
+}
+
+.menuBar{
+	position: fixed;
+	height: 100%;
+	width: 15%;
+	background: rgba(0, 0, 0, 0.5);
+	top: 0;
+	left: 0;
+	text-align: center;
+	line-height: 100px;
+	font-family: 'Teko', sans-serif;
+}
+
+.menuBar h3{
+	color: white;
+	font-size: 36px;
+	text-decoration: underline;
+	text-align: center;
+
+}
+
+.menuBar a{
+	color: white;
+	text-decoration: none;
+	font-size: 46px;
+	margin:auto;
+}
+
+
+.menuBar a:hover{
+	color: rgba(0, 0, 0, 0.75);
+}
+
+#heading{
+	position: relative;
+	text-align: center;
+	z-index: 100;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+h6{
+	z-index: 100;
+	color: white;
+	text-shadow: 3px 3px black;
+	font-size: 24px;
+	margin-top: 0px;
+}
+
+#mainLogo{
+	position: relative;
+	margin: auto;
+	z-index: 1000;
+	width: 450px;
+	height: 70px;
+	background: url('../img/ActionParkLogo.png') center no-repeat;
+
+}
+
+@media screen and (max-width: 750px){
+	#mainLogo{
+	margin-left: 200px;
+	background: url('../img/ActionParkLogoSmall.png') center no-repeat;
+	}
+	h6{
+		font-size: 20px;
+		margin-left: 50px;
+	}
+	.menuBar a{
+		font-size: 24px;
+	}
+}
+
+@media screen and (max-width: 500px){
+	#mainLogo{
+	margin-left: 100px;
+	}
+	.menuBar a{
+		font-size: 16px;
+	}
+}
+
+/*
+Styles for History
+*/
+
+#historyHeading{
+	width: 85%;
+	height: 200px;
+	background: url('../img/ActionParkHeadline.jpg') center;
+	background-size: cover;
+	margin-left: 15%;
+}
+
+#hLink{
+	color: rgba(0,0,0,.5);
+}
+
+.history{
+	text-decoration: underline;
+	font-size: 48px;
+	margin-left: 15%;
+	margin-top: 0;
+	text-align: center;
+	font-family: 'Teko', sans-serif;
+}
+
+#historyBlock1{
+	width: 83%;
+	margin-left: 15.5%;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 18px;
+	line-height: 2;
+
+}
+
+#historyImage1{
+	width: 300px;
+	height: 200px;
+	display: inline-block;
+	background: url('../img/ActionParkSlide2.jpg') center no-repeat;
+	float: right;
+	margin-right: 10px;
+}
+
+#historyImage2{
+	width: 275px;
+	height: 200px;
+	display: inline-block;
+	background: url('../img/ActionParkSlide.jpg') center no-repeat;
+	float: left;
+	margin-right: 10px;
+}
+
+.historyHeaders{
+	text-decoration: underline;
+	font-size: 24px;
+}
+
+#historyImage3{
+	width: 275px;
+	height: 200px;
+	display: inline-block;
+	background: url('../img/closeSign.jpg') center no-repeat;
+	float: right;
+	margin-right: 10px;
+}
+
+#historyImage4{
+	width: 650px;
+	height: 455px;
+	display: inline-block;
+	background: url('../img/ActionParkSlide3.jpg') center no-repeat;
+	float: right;
+	margin-right: 10px;
+}
+@media screen and (max-width: 825px){
+	#historyImage4{
+		display: none;
+	}
+}
+
+hr{
+	width: 80%;
+	margin-left: 17%;
+	margin-right: 5%;
+	border-width: 4px;
+	border-style: double;
+
+}
+
+/*
+Styles for Scandals
+*/
+
+#sLink{
+	color: rgba(0,0,0,.5);
+}
+
+#scandalHeading{
+	width: 85%;
+	height: 125px;
+	background: url('../img/ActionParkHeadline2.png') center;
+	/*background-size: cover;*/
+	margin-left: 15%;
+}
+
+
+.scandal{
+	text-decoration: underline;
+	font-size: 48px;
+	margin-left: 15%;
+	margin-top: 0;
+	text-align: center;
+	font-family: 'Teko', sans-serif;
+}
+
+li{
+	font-size: 18px;
+}
+
+#scandalBlock1{
+	width: 84%;
+	margin-left: 15.5%;
+	font-family: 'Roboto Condensed', sans-serif;
+	line-height: 2;
+	font-size: 18px;
+}
+
+#smallA{
+	font-size: 16px;
+}
+
+#scandalVid{
+	display: block;
+	margin-left: 15.5%;
+	text-align: center;
+
+}
+iframe{
+	width:600px; 
+	height:315px;
+}
+@media screen and (max-width: 800px){
+	iframe{
+	width:400px; 
+	height:315px;
+}
+
+@media screen and (max-width: 500px){
+	iframe{
+	width:200px; 
+	height:100px;
+	}
+
+}
+
+/*
+Styles for Legacy
+*/
+
+#lLink{
+	color: rgba(0,0,0,.5);
+}
+
+#legacyHead{
+	width: 84%;
+	height: 170px;
+	background: url('../img/ActionParkHeadline3.png') center;
+	margin-left: 15%;
+}
+
+
+#legacy{
+	text-decoration: underline;
+	font-size: 48px;
+	margin-left: 15%;
+	margin-top: 0;
+	text-align: center;
+	font-family: 'Teko', sans-serif;
+}
+
+#legHead{
+	width: 84%;
+	height: 180px;
+	background-color: red;
+	margin-left: 15%;
+}
+
+/*
+Styles for Sources
+*/
+
+
+.sources{
+	text-decoration: underline;
+	font-size: 48px;
+	margin-left: 15%;
+	margin-top: 0;
+	text-align: center;
+	font-family: 'Teko', sans-serif;
+}
